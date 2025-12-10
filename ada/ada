@@ -98,6 +98,8 @@ usage() {
 	      deletion of each subdir, unless you add --force.
 	      Please note, that dCache storage systems usually
 	      don't have an undelete option.
+	      Deleting a file will also delete its metadata
+	      (labels and extended attributes).
 
 	  --setlabel <file> <label>
 	      Attach a label to a file.
